@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    </head>
+  <body>
+  <h1>WHERE TO GO?</h1>
+<div id="holidayInfoForm" class="holidayForm">
+  
+  <label id="holidayTitle">title goes here</label>
+  <input id="holidayTitleInput"></input>
+  <button id="addToFormButton">click</button>
+  <div class="costsDiv">
+    <h3>COSTS</h3>
+      <div>
+        <label>How Many Days</label>
+        <input id="holLengthInput"></input>
+        <label id="holLengthText"></label>
+        <button id="addToFormButton">click</button>
+      </div>
+      <div>
+        <label>Travel Costs</label>
+        <input id="travelCostsInput"></input>
+        <label id="travelCostsText"></label>
+        <button id="addToFormButton">click</button>
+    </div>
+    <div>
+        <label>Accommodation</label>
+        <input id="holLengthInput"></input>
+        <label id="holLengthText"></label>
+        <button id="addToFormButton">click</button>
+    </div>
+    <div>
+        <label>Daily Food Budget</label>
+        <input id="holLengthInput"></input>
+        <label id="holLengthText"></label>
+        <button id="addToFormButton">click</button>
+    </div>
+    <div>
+        <label>Other Spending</label>
+        <input id="holLengthInput"></input>
+        <label id="holLengthText"></label>
+        <button id="addToFormButton">click</button>
+    </div>
+        <label>Total Costs</label>
+        <label id="totalCostText">Total Price goes here</label>
+  </div>
+  <div class="weatherDiv">
+    <h3>WEATHER</h3>
+    <div>
+      <label>Nearest City</label>
+      <input id="holLengthInput"></input>
+      <label id="holLengthText"></label>
+      <button id="addToFormButton">click</button>
+    </div>
+    <div>
+      <label>Month of Travel</label>
+      <input id="travelCostsInput"></input>
+      <label id="travelCostsText"></label>
+      <button id="addToFormButton">click</button>
+    </div>
+
+      <label>Average Temperature</label>
+      <label id="holLengthText">Temp goes here</label>
+  </div>
+
+</div> 
+    <div id="map"></div>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnbjdtiXWqRllkZLRWv0sI3CcrQc4KMDg"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+  </body>
+</html>
