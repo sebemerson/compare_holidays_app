@@ -1,4 +1,4 @@
-/***Compare Holidays App**/
+Compare Holidays App
 
 Summary:
 This is a basic form based app written in pure JavaScript, which takes user input regarding different holidays and makes comparisons in several ways, such as price and weather. This app is
