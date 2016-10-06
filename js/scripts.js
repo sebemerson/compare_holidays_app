@@ -1,9 +1,13 @@
 "use strict";
 
+var holidayFormData1 = {};
 
 var appController ={
 	initApp: function(){
 		this.clickEvents();
+	},
+	display: function(){
+
 	},
 	clickEvents: function(){
 		var self = this;
@@ -16,14 +20,42 @@ var appController ={
 			});
 	},
 	updateHolidayForm: function(el){
-		var inputValue = document.getElementById('holidayTitleInput').value;
-			document.getElementById('holidayTitle').innerHTML = inputValue;
-			
+		var findChildren = el.target.parentElement.children;
+		var inputBox;
+		var resultsText;
 
+		for (var i = 0; i < findChildren.length; i++) {
+			if(findChildren[i].className === 'inputBox'){
+				inputBox = findChildren[i];
+			} 
+			if (findChildren[i].className === 'resultsText') {
+				resultsText = findChildren[i];
+			} 	
+		}
+		if(!inputBox){
+			return;
+		}
+		var inputBoxValue = inputBox.value;
+		var trimmedInputBoxValue = inputBoxValue.trim()
+
+		if(el.target.parentElement.className === "cost"){
+			var costAsNumber = parseInt(trimmedInputBoxValue, 10);
+			resultsText.innerHTML = "&#xa3; "  + costAsNumber;
+		} else{
+			resultsText.innerHTML = trimmedInputBoxValue;
+		}
+		
+		
+		//Update CSS with new class names to hide input
+		this.updateCss(inputBox);
+		// this.updateData(trimmedInputBoxValue);
 		},
-	clearInput: function(el){
-		
-		
+	updateCss: function(el){
+		el.className = "hideInput";
+	},
+	updateData: function(el){
+		holidayData.push(el)
+		console.log(holidayData);
 	}
 
 };

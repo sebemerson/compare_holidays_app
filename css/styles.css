@@ -20,3 +20,7 @@ h1{
 div{
 	padding: 10px;
 }
+
+.hideInput{
+    display: none;
+}
