@@ -20,7 +20,12 @@ h1{
 div{
 	padding: 10px;
 }
-
-.hideInput{
+.changeFormButton{
     display: none;
+}
+.hide{
+    display: none;
+}
+.show{
+   display: inline-block; 
 }
