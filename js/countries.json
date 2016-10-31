@@ -1,0 +1,130 @@
+{ 
+    "Australia": {
+        "country": "Australia",
+        "currency": "AUD"
+    }, 
+    "Brazil": {
+        "country": "Brazil",
+        "currency": "BRL"
+     },
+     "Bulgaria": {
+        "country": "Bulgaria",
+        "currency": "BGN"
+     },
+     "Canada": {
+        "country": "Canada",
+        "currency": "CAD"
+     },
+     "China": {
+        "country": "China",
+        "currency": "CNY"
+     },
+     "Brazil": {
+        "country": "Brazil",
+        "currency": "BRL"
+     },
+     "Croatia": {
+        "country": "Croatia",
+        "currency": "HRK"
+     },
+     "Denmark": {
+        "country": "Denmark",
+        "currency": "DKK"
+     },
+     "European Union": {
+        "country": "European Union",
+        "currency": "EUR"
+     },
+     "Hong Kong": {
+        "country": "Hong Kong",
+        "currency": "HKD"
+     },
+     "Hungary": {
+        "country": "Hungary",
+        "currency": "HUF"
+     },
+     "Iceland": {
+        "country": "Iceland",
+        "currency": "ISK"
+     },
+     "India": {
+        "country": "India",
+        "currency": "INR"
+     },
+     "Indonesia": {
+        "country": "Indonesia",
+        "currency": "IDR"
+     },
+     "Israel": {
+        "country": "Israel",
+        "currency": "ILS"
+     },
+     "Japan": {
+        "country": "Japan",
+        "currency": "JPY"
+     },
+     "Malaysia": {
+        "country": "Malaysia",
+        "currency": "MYR"
+     },
+     "Mexico": {
+        "country": "Mexico",
+        "currency": "MXN"
+     },
+     "New Zealand": {
+        "country": "New Zealand",
+        "currency": "NZD"
+     },
+     "Norway": {
+        "country": "Norway",
+        "currency": "NOK"
+     },
+     "Philippines": {
+        "country": "Philippines",
+        "currency": "PHP"
+     },
+     "Poland": {
+        "country": "Poland",
+        "currency": "PLN"
+     },
+     "Romania": {
+        "country": "Romania",
+        "currency": "RON"
+     },
+     "Russian Federation": {
+        "country": "Russian Federation",
+        "currency": "RUB"
+     },
+     "Singapore": {
+        "country": "Singapore",
+        "currency": "SGD"
+     },
+     "South Africa": {
+        "country": "South Africa",
+        "currency": "ZAR"
+     },
+     "Sweden": {
+        "country": "Sweden",
+        "currency": "SEK"
+     },
+     "Switzerland": {
+        "country": "Switzerland",
+        "currency": "CHF"
+     },
+     "Thailand": {
+        "country": "Thailand",
+        "currency": "THB"
+     },
+     "Turkey": {
+        "country": "Turkey",
+        "currency": "TRY"
+     },
+     "United Kingdom": {
+        "country": "United Kingdom",
+        "currency": "GBP"
+     },
+     "United States": {
+        "country": "United States",
+        "currency": "USD"
+     }
+}
