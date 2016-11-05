@@ -1,24 +1,78 @@
+                            /*Mobile to 375px*/
+
+/*Universal Styles*/
 html {
     height: 100%;
-    font-size: 26px;
 }
 body{
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    padding: 0;
+  background-color: white;
+  font-family: 'Muli', sans-serif;
 }
 h1{
 	text-align: center;
 }
-#map {
-    height: 80%;
+.inputBox,
+.addToFormButton,
+.inputLabel,
+.changeFormButton,
+.resultsText {
+   display: block;
+   text-align: center;
+   margin: 5px auto;
+   padding: 8px;
 }
-.holidayForm{
-	margin-left: 150px;
+.inputBox{
+  padding: 10px;
+  border: none;
+  border-bottom: solid 2px #D3D3D3;
+  transition: border 0.3s;
 }
-div{
-	padding: 10px;
+.inputBox::focus{
+  border-bottom: solid 2px #969696;
+}
+.inputLabel{
+  font-size: 22px;
+  margin: 10px 0;
+  padding: 5px;
+}
+.headingLarge {
+  font-size: 30px;
+  margin: 5px 0;
+  padding: 5px;
+  color: black;
+}
+button {
+  background-color:#4682B4;
+  -moz-border-radius:28px;
+  -webkit-border-radius:28px;
+  border-radius:28px;
+  border:1px solid #4682B4;
+  cursor:pointer;
+  color:#ffffff;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #4682B4;
+}
+
+
+/*Holiday form styles*/
+.holidayForm div {
+  padding: 8px 0;
+  text-align: center;
+}
+.resultsText{
+  font-size: 22px;
+  font-weight: bold;
+}
+#currencyExResults,
+#totalSpend{
+  font-size: 22px;
+  font-weight: bold;
+  margin: 20px 0;
+  padding: 5px;
+}
+#nanWarning{
+  font-size: 18px;
+  color: red;
 }
 .changeFormButton{
     display: none;
@@ -28,4 +82,113 @@ div{
 }
 .show{
    display: inline-block; 
+}
+.totalSpendDiv{
+  margin: 0 auto;
+  width: 175.200px;
+  border: 1px solid black;
+  border: none;
+  border-bottom: solid 2px #D3D3D3;
+}
+/*Exchange rate div*/
+#exchangeRate label{
+    display: block;
+}
+#exchangeRate h3{
+  padding: 15px 0;
+}
+@media screen and (min-width: 500px) {
+  /*Universal Styles*/
+.inputLabel{
+  font-size: 28px;
+  margin: 10px 0;
+  padding: 10px;
+}
+.headingLarge {
+  font-size: 34px;
+  margin: 10px 0;
+  padding: 10px;
+  color: black;
+}
+/*Holiday form styles*/
+.totalSpendDiv{
+  width: 312.48px;
+}
+.inputBox,
+.addToFormButton,
+.changeFormButton,
+.resultsText {
+   font-size: 20px;
+   margin: 5px auto;
+}
+.holidayForm div {
+  padding: 15px 0;
+  text-align: center;
+}
+.resultsText{
+  font-size: 24px;
+}
+#currencyExResults,
+#totalSpend{
+  font-size: 28px;
+  padding: 10px;
+}
+.inputBox{
+  font-size: 24px;
+}
+#exchangeRate select{
+  font-size: 20px;
+}
+#exchangeRate select option{
+  font-size: 20px;
+}
+.addComparisonCurrency{
+  font-size: 24px;
+  margin: 15px;
+}  
+}
+@media screen and (min-width: 1025px) {
+  /*Universal Styles*/
+.inputLabel{
+  font-size: 30px;
+  margin: 15px 0;
+  padding: 10px;
+}
+.headingLarge {
+  font-size: 38px;
+  margin: 14px 0;
+}
+/*Holiday form styles*/
+.totalSpendDiv{
+  width: 312.48px;
+}
+.inputBox,
+.addToFormButton,
+.changeFormButton,
+.resultsText {
+   font-size: 18px;
+   margin: 10px auto;
+}
+.holidayForm div {
+  padding: 20px 0;
+}
+.resultsText{
+  font-size: 26px;
+}
+#currencyExResults,
+#totalSpend{
+  font-size: 30px;
+  padding: 10px;
+}
+.inputBox{
+  font-size: 26px;
+}
+#exchangeRate select{
+  font-size: 22px;
+}
+
+.addComparisonCurrency{
+  font-size: 18px;
+  margin: 20px;
+}  
 }

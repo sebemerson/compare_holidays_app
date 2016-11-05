@@ -1,7 +1,7 @@
 Compare Holidays App
 
 Summary:
-This is a basic form based app written in pure JavaScript, which takes user input regarding different holidays and makes comparisons in several ways, such as price and weather. This app is
+This is a basic form based app written in pure JavaScript, which takes user input regarding different holiday budgets and makes comparisons in several ways, such as price and Exchange rate. This app is
 not intended for use by the public, but simply a training device to help me make comparisons in efficieny and method between using JS frameworks (e.g. JQuery) and vanilla JavaScript.
 
 
@@ -14,7 +14,7 @@ Key Features:
 
 - No Frameworks, just Vanilla JS.
 - The Google Maps APi is used.
-- An open weather APi is used. (*Not Yet Added) 
+- A currency exchange api is used: https://github.com/hakanensari/fixer-io 
 
 Files:
 

@@ -2,71 +2,66 @@
 <html>
   <head>
     <title>Holiday Comparison App</title>
-    <meta name="viewport" content="initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/styles.css" type="text/css" />
+   <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
   </head>
   <body>
-  <h1>WHERE TO GO?</h1>
+  <h1 class="headingLarge">Holiday Finance</h1>
   <div id="holidayInfoForm" class="holidayForm"> 
-      <div id="holidayTitle" class="holidayTitleOne">
-        <label class="resultsText">title goes here</label>
-        <input class="inputBox"></input>
+      <div id="holidayTitle" class="holidayTitle">
+        <input class="inputBox" placeholder="add a title"></input>
+        <label class="resultsText"></label>
         <button class="addToFormButton">add</button>
         <button class="changeFormButton">change</button>
       </div>
-
     <div class="costsDiv">
-        <h3>COSTS</h3>
-        <p id="nanWarning"></p>
       <div id="travelCost" class="cost">
-        <label>Travel Costs</label>
+        <h3 class="headingLarge">COSTS</h3>
+        <p id="nanWarning"></p>
+        <label class="inputLabel">Travel Costs</label>
         <input class="inputBox"></input>
         <label class="resultsText"></label>
         <button class="addToFormButton">add</button>
         <button class="changeFormButton">change</button>
       </div>
       <div id="accomodationCost" class="cost">
-        <label>Accommodation</label>
+        <label class="inputLabel">Accommodation</label>
         <input class="inputBox"></input>
         <label class="resultsText"></label>
         <button class="addToFormButton">add</button>
         <button class="changeFormButton">change</button>
       </div>
       <div id="foodCost" class="cost">
-        <label>Food Budget</label>
+        <label class="inputLabel">Food Budget</label>
         <input class="inputBox"></input>
         <label class="resultsText"></label>
         <button class="addToFormButton">add</button>
         <button class="changeFormButton">change</button>
       </div>
       <div id="otherCost" class="cost">
-        <label>Other Spending</label>
+        <label class="inputLabel">Other Spending</label>
         <input class="inputBox"></input>
         <label class="resultsText"></label>
         <button class="addToFormButton">add</button>
         <button class="changeFormButton">change</button>
       </div>
-          <label>Total Costs</label>
-          <label id="totalSpend" class="totalSpend"></label>
+      <div class="totalSpendDiv">
+          <label id="totalSpend" class="totalSpend">Total</label>
+      </div>
     </div>
-    
     <div id="exchangeRate">
-      <h3>Exchange Rate</h3>
-        <label>Your Currency</label>
+      <h3 class="headingLarge">Exchange Rate</h3>
+        <label class="inputLabel">Your Currency</label>
         <select id="baseCurrencyList" class="inputBox"></select>
-        <label>Destination Currency</label>
+        <label class="inputLabel">Destination Currency</label>
         <select id="comparisonCurrencyList" class="inputBox"></select>
         <button class="addComparisonCurrency">Check Rate</button>
         <label id="currencyExResults"></label>
     </div>
-
   </div> <!--End of Form-->
   <div>
-
-  <div id="map"></div>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnbjdtiXWqRllkZLRWv0sI3CcrQc4KMDg"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
-
   </body>
 </html>
